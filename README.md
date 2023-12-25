@@ -2,7 +2,7 @@
 In this study, we estimated the effect of GLP1R signalling on self-harm outcomes using Mendelian randomization (MR), colocalization and polygenic score association. 
 The results highlight that the weight loss effect of GLP1R signalling was likely to increase the risk of self-harm behaviours and raised concern about mental health safety of using GLP1R agonists for weight control, potentially with higher risk in women. 
 
-We upload the discovery MR code here in `"Mendelian randomization"`.
+We upload the discovery MR code in `"Mendelian_randomization.R"`.
 
 To start using the code, you need to install `TwoSampleMR` and `ieugwasr` package.
 
