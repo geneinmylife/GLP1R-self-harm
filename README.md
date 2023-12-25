@@ -18,7 +18,7 @@ devtools::install_github("mrcieu/ieugwasr")
 we include the following functions in R code for reference:
 * LD clumping and F statistics in `instrument.R`
 * steiger filtering, heterogenity and pleiotropy test in `2SMR.R`
-* LDcheck in `LDcheck and colocalization.R`
+* LD check in `LD-check.R`
 
 The colocalization method: PWCOCO (https://github.com/jwr-git/pwcoco/). 
 
