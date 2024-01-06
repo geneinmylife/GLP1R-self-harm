@@ -14,7 +14,7 @@ remotes::install_github("MRCIEU/TwoSampleMR")
 ```key
 devtools::install_github("mrcieu/ieugwasr")
 ```
-For possible multi-trait colocalization, you need to install `gwasglue2` package and `hyprcoloc` package. (Note: For possible fine mapping in susie, you need to install "Susie" package from Rita's Github: https://github.com/ritarasteiro)
+For possible multi-trait colocalization, you need to install `gwasglue2` package and `hyprcoloc` package. (Note: For possible fine mapping in susie, you need to install "Susie" package from Rita's Github: https://github.com/ritarasteiro).
 
 ```key
 install.packages("remotes")
