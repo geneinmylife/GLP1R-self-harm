@@ -1,3 +1,7 @@
+#######GLP1R self-harm code#############
+########################################
+
+#######hyprcoloc code######
 rm(list=ls())
 gc()
 library(gwasglue2)
