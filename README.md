@@ -40,7 +40,7 @@ The colocalization method: PWCOCO (https://github.com/jwr-git/pwcoco/).
 The hyprcoloc method from Gwasglue2 package: Gwasglue2 (https://github.com/MRCIEU/gwasglue2).
 
 # Publication
-Any other related information could be referenced from our paper: Proteome-wide Mendelian randomization in global biobank meta-analysis reveals multi-ancestry drug targets for common diseases (https://www.medrxiv.org/content/10.1101/2022.01.09.21268473v1)
+Any other related information could be referenced from our paper: The association of genetically predicted GLP1R signaling with the risk of self-harm behaviours: a population-based study using Mendelian randomization
 
 # Data Sources
 * QTL data: [Global Biobank Meta-analysis Initiative (GBMI)](https://www.globalbiobankmeta.org/).
