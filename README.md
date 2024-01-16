@@ -2,9 +2,13 @@
 In this study, we estimated the effect of GLP1R signalling on self-harm outcomes using Mendelian randomization (MR), colocalization and polygenic score association. 
 The results highlight that the weight loss effect of GLP1R signalling was likely to increase the risk of self-harm behaviours and raised concern about mental health safety of using GLP1R agonists for weight control, potentially with higher risk in women. 
 
-We upload the discovery MR code in `"Mendelian_randomization.R"` and the polygenic score association code in `"polygenic-score.R"`. For instruments strength validation, we upload the code in `"Fstatistics.R"`. For MR direction test, we upload the code in `"Steiger_filtering.R"`. For MR cuasal evidence validation, we provide the code in `"LD-check.R"` and `"colocalization.R"`. For z score comparision in different models, we upload the code in `"pairwise_zscore.R"`. For multi-trait colocalization detection, we provide the code in `"hyprcoloc.R"`.
+We provide the following code in "code" folder for reference:
+* MR code in `"Mendelian_randomization.R"` which includes F-statistics and Steiger filtering for instruments strength and direction validation.
+* polygenic score association code in `"polygenic-score.R"`.
+* `"LD-check.R"` and `"colocalization.R"` for MR cuasal evidence validation.
+* `"hyprcoloc.R"` for multi-trait colocalization detection.
 
-To start using the code, you need to install `TwoSampleMR`, `Mendelianrandomization` and `ieugwasr` package.
+To start using the code, you need to install `TwoSampleMR`, `Mendelianrandomization`, `coloc` and `ieugwasr` package.
 
 ```key
 install.packages("remotes")
@@ -14,7 +18,7 @@ remotes::install_github("MRCIEU/TwoSampleMR")
 ```key
 devtools::install_github("mrcieu/ieugwasr")
 ```
-For possible multi-trait colocalization, you need to install `gwasglue2` package and `hyprcoloc` package. 
+For possible multi-trait colocalization, you need to install `gwasglue2`, `VariantAnnotation`, `gwasvcf` and `hyprcoloc` package. 
 
 (Note: For possible fine mapping in susie, you need to install "Susie" package from Rita's Github https://github.com/ritarasteiro).
 
@@ -24,27 +28,41 @@ remotes::install_github("MRCIEU/gwasglue2")
 ```
 
 ```key
-install_github("jrs95/hyprcoloc", build_opts = c("--resave-data", "--no-manual"), build_vignettes = TRUE)
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("VariantAnnotation")
 ```
 
-we include the following functions in R code for reference:
-* colocalization in `colocalization.R`
-* LD check in `LD-check.R`
-* F statistics in `Fstatistics.R`
-* Steiger filtering in `Steiger_filtering.R`
-* ztest in `pairwise_zscore.R`
-* PGS in `polygenic-score.R`
-* hyprcoloc in `hyprcoloc.R`
+```key
+remotes::install_github("mrcieu/gwasvcf")
+```
 
-The colocalization method: PWCOCO (https://github.com/jwr-git/pwcoco/). 
-The hyprcoloc method from Gwasglue2 package: Gwasglue2 (https://github.com/MRCIEU/gwasglue2).
+```key
+install_github("jrs95/hyprcoloc", build_opts = c("--resave-data", "--no-manual"), build_vignettes = TRUE)
+```
+Please download the whole project and set the download folder as the route for runing R code.
+The whole analysis is based on R version 4.3.1 (2023-06-16).
+
+Besides, We use the colocalization method: PWCOCO (https://github.com/jwr-git/pwcoco/) for double check. Please check the link for further instructions.
+The hyprcoloc method is derived from Gwasglue2 package: Gwasglue2 (https://github.com/MRCIEU/gwasglue2). Please check the link for details.
 
 # Publication
 Any other related information could be referenced from our paper: The association of genetically predicted GLP1R signaling with the risk of self-harm behaviours: a population-based study using Mendelian randomization
 
 # Data Sources
-* QTL data: [Global Biobank Meta-analysis Initiative (GBMI)](https://www.globalbiobankmeta.org/).
+* eQTL/sQTL data: [GTEX Portal](https://gtexportal.org/home/).
+* pQTL data: [deCODE](https://www.decode.com).
+* meQTL data: [GODMC](http://mqtldb.godmc.org.uk/downloads).
 * Self-harm data: [Zhang et al., 2021 BioRxiv](https://www.biorxiv.org/content/10.1101/2021.03.15.435533v1.full).
-* Suicide attempt data [Zhang et al., 2021 BioRxiv](https://www.biorxiv.org/content/10.1101/2021.03.15.435533v1.full).
+* Suicide attempt data: [Docherty et al.](https://ajp.psychiatryonline.org/doi/10.1176/appi.ajp.21121266).
+* T2D data: [Mahajan et al.](https://www.nature.com/articles/s41588-022-01058-3).
+* HbA1c data: [Chen et al.](https://www.nature.com/articles/s41588-021-00852-9).
+
+
+
+
+
+
 
 
