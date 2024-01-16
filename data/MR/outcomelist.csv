@@ -1,0 +1,9 @@
+Outcome name,Type,ID/study,filename,N_cases,N_controls,N_total,risk.u,Sample overlap with UK Biobank
+Ever attempted suicide,Outcome,37777856,suicide.txt,35786,779392,815178,0.044,2433 cases 334766 controls
+Ever self-harmed ,Outcome,ukb-d-20480,self-harmed.txt,5099,112634,117733,0.043,5099 cases 112634 controls
+Mental health services following self-harm,Outcome,ukb-d-20554_1,Mental.txt,1693,116040,117733,0.014,1693 cases 116040 controls
+Hospital treatment following self-harm,Outcome,ukb-d-20554_3,Hospital.txt,2125,115608,117733,0.018,2125 cases 115608 controls
+See own GP following self-harm,Outcome,ukb-d-20554_5,GP.txt,1249,116484,117733,0.011,1249 cases 116484 controls
+Receive help after self-harm,Outcome,ukb-d-20554_6,help.txt,1453,116280,117733,0.012,1453 cases 116280 controls
+Body mass index* ,Validation,ieu-b-40 or ebi-a-GCST90029007,BMI.txt,/,/,681275,/,456426 samples
+Type 2 diabetes,Validation,Mahajan et al.,T2D.txt,80154,853816,933970,0.086,"19119 cases, 423698 controls"

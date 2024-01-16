@@ -1,0 +1,10 @@
+SNP	chr	pos	beta.outcome	se.outcome	samplesize.outcome	pval.outcome	eaf.outcome	effect_allele.outcome	other_allele.outcome	outcome	id.outcome	originalname.outcome	outcome.deprecated	mr_keep.outcome	data_source.outcome
+rs10922098	1	196664651	-0.00237395	0.000857003	117733	0.00560544	0.612829	T	C	Ever self-harmed || id:ukb-d-20480	ukb-d-20480	Ever self-harmed	Ever self-harmed ||  || 	TRUE	igd
+rs10305439	6	39024716	-0.00085873	0.000839948	117733	0.306613	0.446166	A	C	Ever self-harmed || id:ukb-d-20480	ukb-d-20480	Ever self-harmed	Ever self-harmed ||  || 	TRUE	igd
+rs877446	6	39031039	-0.00120491	0.000842389	117733	0.15262	0.566099	G	A	Ever self-harmed || id:ukb-d-20480	ukb-d-20480	Ever self-harmed	Ever self-harmed ||  || 	TRUE	igd
+rs880347	6	39031821	-0.000816447	0.000845922	117733	0.334469	0.416635	G	A	Ever self-harmed || id:ukb-d-20480	ukb-d-20480	Ever self-harmed	Ever self-harmed ||  || 	TRUE	igd
+rs76134386	6	38248111	-0.00213512	0.00187513	117733	0.25485	0.0530195	C	T	Ever self-harmed || id:ukb-d-20480	ukb-d-20480	Ever self-harmed	Ever self-harmed ||  || 	TRUE	igd
+rs1018437	6	38814743	0.000112923	0.000841339	117733	0.893231	0.439337	C	T	Ever self-harmed || id:ukb-d-20480	ukb-d-20480	Ever self-harmed	Ever self-harmed ||  || 	TRUE	igd
+rs13215087	6	39018084	-0.000240485	0.000946182	117733	0.799369	0.265055	A	G	Ever self-harmed || id:ukb-d-20480	ukb-d-20480	Ever self-harmed	Ever self-harmed ||  || 	TRUE	igd
+rs9501393	6	31974849	-0.0011133	0.00122884	117733	0.36495	0.141198	G	C	Ever self-harmed || id:ukb-d-20480	ukb-d-20480	Ever self-harmed	Ever self-harmed ||  || 	TRUE	igd
+rs9283907	6	39026703	-0.00140988	0.00119146	117733	0.236685	0.856113	G	A	Ever self-harmed || id:ukb-d-20480	ukb-d-20480	Ever self-harmed	Ever self-harmed ||  || 	TRUE	igd

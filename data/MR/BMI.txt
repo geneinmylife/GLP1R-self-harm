@@ -1,0 +1,10 @@
+SNP	chr	pos	beta.outcome	se.outcome	samplesize.outcome	pval.outcome	eaf.outcome	effect_allele.outcome	other_allele.outcome	outcome	id.outcome	originalname.outcome	outcome.deprecated	mr_keep.outcome
+rs10305439	6	39024716	0.0083	0.0018	681730	2.70E-06	0.4342	A	C	body mass index || id:ieu-b-40	ieu-b-40	body mass index	body mass index ||  || 	TRUE
+rs9283907	6	39026703	0.0082	0.0026	581121	0.00129999	0.85	G	A	body mass index || id:ieu-b-40	ieu-b-40	body mass index	body mass index ||  || 	TRUE
+rs1018437	6	38814743	0.0026	0.0017	691850	0.14	0.4353	C	T	body mass index || id:ieu-b-40	ieu-b-40	body mass index	body mass index ||  || 	TRUE
+rs877446	6	39031039	0.0089	0.0017	689333	3.20E-07	0.5509	G	A	body mass index || id:ieu-b-40	ieu-b-40	body mass index	body mass index ||  || 	TRUE
+rs10922098	1	196672454	0.0045	0.0018	691529	0.0109999	0.6123	T	C	body mass index || id:ieu-b-40	ieu-b-40	body mass index	body mass index ||  || 	TRUE
+rs76134386	6	38248111	0.00391304	0.00432135	532396	0.31	0.052681	C	T	Body mass index || id:ebi-a-GCST90029007	ebi-a-GCST90029007	Body mass index	Body mass index ||  || 	TRUE
+rs9501393	6	31974849	-0.0113039	0.00355796	532396	0.002	0.140179	G	C	Body mass index || id:ebi-a-GCST90029007	ebi-a-GCST90029007	Body mass index	Body mass index ||  || 	TRUE
+rs880347	6	39031821	0.00700357	0.00194587	532396	0.000539995	0.416156	G	A	Body mass index || id:ebi-a-GCST90029007	ebi-a-GCST90029007	Body mass index	Body mass index ||  || 	TRUE
+rs13215087	6	39018084	-0.000165352	0.00217674	532396	0.98	0.265056	A	G	Body mass index || id:ebi-a-GCST90029007	ebi-a-GCST90029007	Body mass index	Body mass index ||  || 	TRUE
