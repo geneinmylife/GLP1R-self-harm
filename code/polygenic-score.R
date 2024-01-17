@@ -5,7 +5,7 @@
 # Clear the work environment
 rm(list = ls())
 
-#input data
+#input data - need to use individual level UK Biobank data to create these files
 ivGLP1R<-read.csv("/path_to_dataset/")
 phenotype<-read.csv("/path_to_dataset/")
 phenotype_other<-read.csv("/path_to_dataset/")
