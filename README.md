@@ -21,8 +21,6 @@ devtools::install_github("mrcieu/ieugwasr")
 ```
 For possible multi-trait colocalization, you need to install `gwasglue2`, `VariantAnnotation`, `gwasvcf` and `hyprcoloc` package. 
 
-(Note: For possible fine mapping in susie, you need to install "Susie" package from Rita's Github https://github.com/ritarasteiro).
-
 ```key
 install.packages("remotes")
 remotes::install_github("MRCIEU/gwasglue2")
@@ -42,6 +40,13 @@ remotes::install_github("mrcieu/gwasvcf")
 ```key
 install_github("jrs95/hyprcoloc", build_opts = c("--resave-data", "--no-manual"), build_vignettes = TRUE)
 ```
+
+Also, we provide the datasets in "data" folder for reference:
+* Multi-omic QTL instruments, outcomelist and 8 extracted outcome datasets in "MR" folder.
+* six prepared whole-genome datasets in 500kb around target SNP for colocalization and LDcheck, and moloc folder for multi-trait coloc in "coloc_LDcheck" folder.
+* pQTLs for creating polygenic score in "PGS" folder.
+* instruments for mediators in "mediation" folder.
+
 Please download the whole project and set the download folder as the route for runing R code.
 The whole analysis is based on R version 4.3.1 (2023-06-16).
 
