@@ -42,10 +42,10 @@ install_github("jrs95/hyprcoloc", build_opts = c("--resave-data", "--no-manual")
 ```
 
 Also, we provide the datasets in "data" folder for reference:
-* Multi-omic QTL instruments, outcomelist and 8 extracted outcome datasets in "MR" folder.
-* six prepared whole-genome datasets in 500kb around target SNP for colocalization and LDcheck, and moloc folder for multi-trait coloc in "coloc_LDcheck" folder.
-* pQTLs for creating polygenic score in "PGS" folder.
-* instruments for mediators in "mediation" folder.
+* Multi-omic QTL instruments, outcomelist and 8 extracted outcome datasets in `"MR"` folder.
+* six prepared whole-genome datasets in 500kb around target SNP for colocalization and LDcheck, and moloc folder for multi-trait coloc in `"coloc_LDcheck"` folder.
+* pQTLs for creating polygenic score in `"PGS"` folder.
+* instruments for mediators in `"mediation"` folder.
 
 Please download the whole project and set the download folder as the route for runing R code.
 The whole analysis is based on R version 4.3.1 (2023-06-16).
