@@ -48,7 +48,7 @@ Also, we provide the datasets in "data" folder for reference:
 * instruments for mediators in `"mediation"` folder.
 
 Please download the whole project and set the download folder as the route for runing R code.
-The whole analysis is based on R version 4.3.1 (2023-06-16).
+The whole analysis is based on R version 4.3.1 (2023-06-16) and the project is under MIT license.
 
 Besides, We use the colocalization method: PWCOCO (https://github.com/jwr-git/pwcoco/) for double check. Please check the link for further instructions.
 The hyprcoloc method is derived from Gwasglue2 package: Gwasglue2 (https://github.com/MRCIEU/gwasglue2). Please check the link for details.
