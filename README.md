@@ -5,6 +5,7 @@ The results highlight that the weight loss effect of GLP1R signalling was likely
 
 We provide the following code in "code" folder for reference:
 * MR code in `"Mendelian_randomization.R"` which includes F-statistics and Steiger filtering for instruments strength and direction validation.
+* `"bidirectional-MR.R"` for bidirecitonal MR of self-harm traits (exposures) on protein levels of GLP1R (outcome).
 * polygenic score association code in `"polygenic-score.R"`.
 * `"LD-check.R"` and `"colocalization.R"` for MR cuasal evidence validation.
 * `"hyprcoloc.R"` for multi-trait colocalization detection.
