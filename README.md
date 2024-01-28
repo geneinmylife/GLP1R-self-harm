@@ -54,6 +54,16 @@ The whole analysis is based on R version 4.3.1 (2023-06-16) and the project is u
 We use the colocalization method: [PwCoCo](https://github.com/jwr-git/pwcoco/) to validate our colocalization findings. Please check the link for further instructions.
 We used the [HyPrColoc](https://www.nature.com/articles/s41467-020-20885-8) method implemented in [```gwasglue2``` package](https://github.com/MRCIEU/gwasglue2). 
 
+Besides, for some of the resultes shown in the supplementary table, we made the beta transformation of MR estimates when the outcome GWAS was conducted using a linear regression model. So please make the transformation with the following formula after runing the code to match the results in the table.
+knitr::include_graphics("/Users/tq20202/Desktop/Picture1.png")
+While the variance was estimated using the following formula:  
+knitr::include_graphics("/Users/tq20202/Desktop/Picture2.png")
+k:  represents the proportion of cases in the sampled population,
+p:  effect allele frequency of all participants,
+p0: effect allele frequency of controls,
+b1: effect size of the linear regression.
+
+
 # Publication
 Any other related information can be referenced from our paper: The association of genetically predicted GLP1R activity with the risk of self-harm behaviours: a population-based study using Mendelian randomization
 
