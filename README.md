@@ -9,6 +9,7 @@ We provide the following code in "code" folder for reference:
 * polygenic score association code in `"polygenic-score.R"`.
 * `"LD-check.R"` and `"colocalization.R"` for MR cuasal evidence validation.
 * `"hyprcoloc.R"` for multi-trait colocalization detection.
+* `"phenospd.R"` for independent test number estimation.
 
 To start using the code, you need to install `TwoSampleMR`, `Mendelianrandomization`, `coloc` and `ieugwasr` package.
 
@@ -47,6 +48,7 @@ Also, we provide datasets in the "data" folder for reference:
 * six prepared whole-genome datasets in 500kb around target SNP for colocalization and LDcheck, and moloc folder for multi-trait coloc in `"coloc_LDcheck"` folder.
 * pQTLs for creating polygenic score in `"PGS"` folder.
 * instruments for mediators in `"mediation"` folder.
+* phenotypic correlation matrix for independent test estimation in `"phenospd"` folder.
 
 Please download the whole project and set the download folder as the route for runing R code.
 The whole analysis is based on R version 4.3.1 (2023-06-16) and the project is under MIT license.
